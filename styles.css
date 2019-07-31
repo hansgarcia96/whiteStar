@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+
+.navBar {
+  height: 3.5em;
+  margin: 1em;
+}
+
+.navBar img {
+  float: left;
+  height: 44px;
+  width: 143px;
+}
+
+#navLinks {
+  float: right;
+}
+
+#navLinks a {
+  text-decoration: none;
+  margin: 8px;
+  color: rgb(43, 39, 39);
+}
+
+.intro {
+  height: 527px;
+  text-align: center;
+  background-image: url(images/space.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#introText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #FFF;
+}
